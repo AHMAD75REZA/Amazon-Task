@@ -1,0 +1,31 @@
+Assumptions:
+
+For the purpose of this exercise, I'll assume that we are testing the navigation menu of the Amazon website on the desktop version.
+We'll use Node.js with the Jest testing framework for writing test cases and running the automation script.
+We'll use MongoDB to store test results and generate a report.
+T1: Detailed Test Cases for Navigation Menu:
+
+Test Case: Verify the presence of main menu items.
+
+Expected Result: The main menu should contain categories like "Shop by Department," "Your Amazon.com," "Today's Deals," "Gift Cards," "Registry," "Sell," "Help," etc.
+Test Case: Verify the dropdown menus under "Shop by Department" category.
+
+Expected Result: When hovering over "Shop by Department," dropdown menus should appear with various categories like Electronics, Fashion, Books, etc.
+Test Case: Verify that the dropdown menu disappears when the mouse is moved away from the main menu item.
+
+Expected Result: The dropdown menu should close when the mouse pointer is not hovering over the main menu item.
+Test Case: Verify the behavior of the "Your Amazon.com" submenu.
+
+Expected Result: The submenu should contain links to pages like Your Account, Your Orders, Your Lists, etc.
+Test Case: Verify the functionality of the "Today's Deals" submenu.
+
+Expected Result: The submenu should open and display various deals and offers when hovered over.
+Test Case: Verify the "Gift Cards" link opens the Gift Cards page.
+
+Expected Result: When the "Gift Cards" link is clicked, it should navigate to the Gift Cards page.
+Test Case: Verify the "Sell" link opens the Selling on Amazon page.
+
+Expected Result: When the "Sell" link is clicked, it should navigate to the Selling on Amazon page.
+Test Case: Verify the "Help" link opens the Help & Customer Service page.
+
+Expected Result: When the "Help" link is clicked, it should navigate to the Help & Customer Service page.
